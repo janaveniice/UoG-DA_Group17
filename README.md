@@ -29,6 +29,10 @@ This is to retain all the outputs as outputs disappear when there is kernel chan
 ```bash
 cd distance-estimator-model
 ```
+or
+```bash
+cd los-nlos-model
+```
 
 ### **2. Convert Jupyter Notebook to HTML**
 ```bash
