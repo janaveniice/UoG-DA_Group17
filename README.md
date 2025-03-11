@@ -7,6 +7,22 @@ Details of this model
 ## **Distance Estimation Model**
 Details of this model
 
+## Dataset
+This project uses the [UWB LOS/NLOS dataset](https://github.com/ewine-project/UWB-LOS-NLOS-Data-Set) consisting of 21,000 LOS and 21,000 NLOS samples collected from 7 indoor environments (office1, office2, etc.). It consists of 15 features and 1 class.
+
+## Project Structure
+```
+UoG-DA-Group17
+├── dataset/                     # Dataset files
+├── distance-estimator-model/    # Distance Estimation model
+|   └── models/                  # Saved trained models
+├── los-nlos-model/              # LOS/ NLOS classification model
+|   └── models/                  # Saved trained models
+├── .gitignore                   # Ignore unnecesary files in version control
+├── README.md                    # Project documentation
+└── requirements.txt             # Python dependencies
+```
+
 ## **Setup**
 ### **1. Create virtual environment**
 ```bash
@@ -36,5 +52,5 @@ cd los-nlos-model
 
 ### **2. Convert Jupyter Notebook to HTML**
 ```bash
-jupyter nbconvert --to html model.ipynb --output model-with-outputs
+jupyter nbconvert --to html model.ipynb --output notebook-with-outputs
 ```
