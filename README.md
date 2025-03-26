@@ -39,18 +39,7 @@ myenv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## **Export Jupyter Notebook to HTML**
-This is to retain all the outputs as outputs disappear when there is kernel change detected.
-### **1. Change to notebook's directory**
-```bash
-cd distance-estimator-model
-```
-or
-```bash
-cd los-nlos-model
-```
-
-### **2. Convert Jupyter Notebook to HTML**
-```bash
-jupyter nbconvert --to html model.ipynb --output notebook-with-outputs
-```
+### **4. Change Python kernel to virtual environment**
+    a. `Ctr+Shift+P` on your keyboard
+    b. Search for `Python": Select Interpreter`
+    c. Select `Python 3.12.x (myenv)`
