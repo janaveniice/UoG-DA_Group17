@@ -4,12 +4,6 @@ This project uses the Line of Sight (LOS) & Non Line of Sight (NLOS) UWB dataset
 ## Dataset
 This project uses the [UWB LOS/NLOS dataset](https://github.com/ewine-project/UWB-LOS-NLOS-Data-Set) consisting of 21,000 LOS and 21,000 NLOS samples collected from 7 indoor environments (office1, office2, etc.). It consists of 15 features and 1 class.
 
-## **LOS/NLOS Classifier Model**
-Details of this model
-
-## **Distance Estimation Model**
-This model predicts distance measurements using various machine learning algorithms. The model employs **Lasso Regression**, **RBF Support Vector Regression (SVR)**, **Random Forest**, and **Gradient Boosting** to estimate distances based on input features. Each model is trained, tuned, and evaluated for its performance, with the best-performing models selected as the final model. The approach combines different models to enhance accuracy and reliability in distance estimation tasks.
-
 ## Project Structure
 ```
 UoG-DA-Group17
@@ -17,7 +11,7 @@ UoG-DA-Group17
 ├── distance-estimator-model/    # Distance Estimation model
 |   └── models/                  # Saved trained models
 ├── los-nlos-model/              # LOS/ NLOS classification model
-|   └── models/                  # Saved trained models
+|   └── algo_models/             # Saved trained models
 ├── .gitignore                   # Ignore unnecesary files in version control
 ├── README.md                    # Project documentation
 └── requirements.txt             # Python dependencies
